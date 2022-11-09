@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package cruscalucio.pizzeria;
 
+// Creare una applicazione con interfaccia utente da terminale (java.util.Scanner) 
+// che permetta di inserire e visualizzare i contenuti delle seguenti tabelle di DataBase:
+// - Pizze (o menù) con campi id, nome, ingredienti, prezzo
+// - Clienti con i campi id, nome, cognome, indirizzo
+// - Ordini con i campi id, data ora id_cliente, ora_consegna
+// - PizzeOrdinate coni campi id, id_ordine, id_pizza
+
 /**
- *
- * @author WS2
+ * @author Francesco
  */
 public class Pizzeria {
 
