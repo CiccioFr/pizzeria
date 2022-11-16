@@ -57,7 +57,7 @@ public class Crud<T extends IPrimaryKey> {
     }
 
     public List<T> leggiTutti() {
-        String nameDB = beanCrud.getName() + ".findAll";
+        String nameDB = beanCrud.getSimpleName() + ".findAll";
         EntityManager db = dbPersistence();
         try {
             TypedQuery<T> q = db.createNamedQuery(nameDB, beanCrud);

@@ -2,13 +2,11 @@ package cruscalucio.pizzeria;
 
 import cruscalucio.pizzeria.db.Cliente;
 import cruscalucio.pizzeria.db.Ordine;
-import cruscalucio.pizzeria.db.Ordine_;
 import cruscalucio.pizzeria.db.Pizza;
 import cruscalucio.pizzeria.db.PizzaOrdinata;
 import cruscalucio.pizzeria.db.connessione.Crud;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 
 // Creare una applicazione con interfaccia utente da terminale (java.util.Scanner) 
@@ -51,7 +49,6 @@ public class Pizzeria {
                 System.out.println(pl.getNome());
                 break;
             case 3:
-
                 SimpleDateFormat data = new SimpleDateFormat("yyyy-MM-dd");
                 SimpleDateFormat ora = new SimpleDateFormat("HH:mm:ss");
                 System.out.println(data.format(new Date()));
